@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Laço Pet: cuidado, carinho, banho, tosa e bem-estar para seu melhor amigo."
+    />
+
+    <title>Laço Pet | Amor em cada cuidado</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ==============================
+         HEADER
+    ============================== -->
+
+    <header class="header">
+      <nav class="navbar container">
+        <!-- Logo -->
+        <a href="#inicio" class="logo"> Laço<span>Pet</span> </a>
+
+        <!-- Menu desktop e mobile -->
+        <ul class="nav-links" id="menu-links">
+          <li>
+            <a href="#inicio">Início</a>
+          </li>
+
+          <li>
+            <a href="#servicos">Serviços</a>
+          </li>
+
+          <li>
+            <a href="#sobre">Sobre</a>
+          </li>
+
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+
+        <!-- Agendamento -->
+        <a href="#agendamento" class="btn-agendar"> Agendar horário </a>
+
+        <!-- Botão mobile -->
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="menu-links"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </nav>
+    </header>
+
+    <!-- ==============================
+         CONTEÚDO PRINCIPAL
+    ============================== -->
+
+    <main>
+      <!-- HERO COM VÍDEO -->
+      <section id="inicio" class="hero">
+        <!-- Vídeo de fundo -->
+        <video
+          id="videoHero"
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          aria-hidden="true"
+        >
+          <source src="assets/videos/pet-hero.mp4" type="video/mp4" />
+
+          Seu navegador não suporta vídeos.
+        </video>
+
+        <!-- Camada escura -->
+        <div class="hero-overlay"></div>
+
+        <!-- Conteúdo -->
+        <div class="container hero-grid">
+          <div class="hero-conteudo">
+            <!-- Etiqueta -->
+            <span class="hero-tag"> 🐾 Amor em cada cuidado </span>
+
+            <!-- Título -->
+            <h1>Seu melhor amigo merece o <span>melhor carinho.</span></h1>
+
+            <!-- Descrição -->
+            <p>
+              O cuidado e carinho que seu melhor amigo merece, sem filas e com
+              hora marcada.
+            </p>
+
+            <!-- Botões -->
+            <div class="hero-botoes">
+              <a href="#agendamento" class="btn-principal">
+                Agendar Banho via WhatsApp
+              </a>
+
+              <a href="#servicos" class="btn-secundario"> Conhecer serviços </a>
+            </div>
+
+            <!-- Benefícios -->
+            <div class="hero-beneficios">
+              <span>✓ Hora marcada</span>
+
+              <span>✓ Cuidado humanizado</span>
+
+              <span>✓ Muito carinho</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Indicador de rolagem -->
+        <a
+          href="#servicos"
+          class="scroll-indicator"
+          aria-label="Ir para serviços"
+        >
+          <span>Explore nossos serviços</span>
+          <span class="scroll-arrow">↓</span>
+        </a>
+      </section>
+
+      <!-- ===================================
+     SEÇÃO DE SERVIÇOS
+=================================== -->
+
+      <section id="servicos" class="servicos">
+        <div class="container">
+          <!-- Cabeçalho da seção -->
+          <div class="servicos-cabecalho">
+            <span class="secao-tag"> NOSSOS SERVIÇOS </span>
+
+            <h2>
+              Tudo que seu pet precisa,
+              <span>em um só lugar.</span>
+            </h2>
+
+            <p>
+              Cuidado, conforto e experiências especiais para quem faz parte da
+              sua família.
+            </p>
+          </div>
+
+          <!-- Grade de serviços -->
+          <div class="servicos-grid">
+            <!-- Card 1 -->
+            <article class="servico-card">
+              <div class="servico-imagem">
+                <img
+                  src="assets/imagens/banho-tosa.png"
+                  alt="Cachorro recebendo banho"
+                  loading="lazy"
+                />
+                <span class="servico-numero">01</span>
+              </div>
+
+              <div class="servico-conteudo">
+                <h3>Banho & Tosa</h3>
+
+                <p>
+                  Higiene, beleza e muito carinho para deixar seu pet limpinho,
+                  cheiroso e confortável.
+                </p>
+
+                <a href="#agendamento" class="servico-link">
+                  Agendar serviço <span>↗</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="servico-card">
+              <div class="servico-imagem">
+                <img
+                  src="assets/imagens/veterinaria.png"
+                  alt="Veterinária cuidando de um cachorro"
+                  loading="lazy"
+                />
+                <span class="servico-numero">02</span>
+              </div>
+
+              <div class="servico-conteudo">
+                <h3>Veterinária</h3>
+
+                <p>
+                  Atenção à saúde e ao bem-estar do seu melhor amigo, com
+                  cuidado e responsabilidade.
+                </p>
+
+                <a href="#agendamento" class="servico-link">
+                  Saiba mais <span>↗</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="servico-card">
+              <div class="servico-imagem">
+                <img
+                  src="assets/imagens/boutique.png"
+                  alt="Cachorro com acessórios elegantes"
+                  loading="lazy"
+                />
+                <span class="servico-numero">03</span>
+              </div>
+
+              <div class="servico-conteudo">
+                <h3>Boutique Pet</h3>
+
+                <p>
+                  Acessórios, estilo e conforto para deixar a rotina do seu
+                  companheiro ainda mais especial.
+                </p>
+
+                <a href="#agendamento" class="servico-link">
+                  Conhecer boutique <span>↗</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="servico-card">
+              <div class="servico-imagem">
+                <img
+                  src="assets/imagens/taxi-dog.png"
+                  alt="Cachorro sendo transportado com segurança"
+                  loading="lazy"
+                />
+                <span class="servico-numero">04</span>
+              </div>
+
+              <div class="servico-conteudo">
+                <h3>Táxi Dog</h3>
+
+                <p>
+                  Mais praticidade para sua rotina com transporte pensado no
+                  conforto e segurança do seu pet.
+                </p>
+
+                <a href="#agendamento" class="servico-link">
+                  Solicitar transporte <span>↗</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="servico-card">
+              <div class="servico-imagem">
+                <img
+                  src="assets/imagens/day-care.png"
+                  alt="Cachorros brincando juntos"
+                  loading="lazy"
+                />
+                <span class="servico-numero">05</span>
+              </div>
+
+              <div class="servico-conteudo">
+                <h3>Day Care</h3>
+
+                <p>
+                  Um espaço para brincar, socializar e aproveitar o dia com
+                  atenção e supervisão.
+                </p>
+
+                <a href="#agendamento" class="servico-link">
+                  Conhecer serviço <span>↗</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="servico-card">
+              <div class="servico-imagem">
+                <img
+                  src="assets/imagens/tosa-especializada.png"
+                  alt="Profissional realizando tosa"
+                  loading="lazy"
+                />
+                <span class="servico-numero">06</span>
+              </div>
+
+              <div class="servico-conteudo">
+                <h3>Tosa Especializada</h3>
+
+                <p>
+                  Técnicas e cuidados adaptados às características e às
+                  necessidades de cada pet.
+                </p>
+
+                <a href="#agendamento" class="servico-link">
+                  Agendar tosa <span>↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================
+     BLOCO 04 - SOBRE A LAÇO PET
+===================================== -->
+
+      <section id="sobre" class="sobre">
+        <div class="container sobre-grid">
+          <!-- IMAGEM -->
+          <div class="sobre-imagem">
+            <img
+              src="assets/imagens/sobre-laco-pet.png"
+              alt="Profissional cuidando de um cachorro com carinho"
+              loading="lazy"
+            />
+
+            <div class="sobre-selo">
+              <span>♥</span>
+              <p>Amor em cada cuidado</p>
+            </div>
+          </div>
+
+          <!-- CONTEÚDO -->
+          <div class="sobre-conteudo">
+            <span class="secao-tag"> QUEM SOMOS </span>
+
+            <h2>
+              Mais que cuidados.
+              <span>Uma conexão de amor.</span>
+            </h2>
+
+            <p>
+              Na Laço Pet, acreditamos que cada animal merece ser tratado com
+              carinho, respeito e atenção.
+            </p>
+
+            <p>
+              Nosso propósito é proporcionar experiências acolhedoras,
+              valorizando o bem-estar e a individualidade de cada pet.
+            </p>
+
+            <!-- DIFERENCIAIS -->
+            <div class="sobre-diferenciais">
+              <div class="diferencial">
+                <span class="diferencial-icone">♥</span>
+
+                <div>
+                  <h3>Carinho de verdade</h3>
+                  <p>Atenção e cuidado em cada detalhe.</p>
+                </div>
+              </div>
+
+              <div class="diferencial">
+                <span class="diferencial-icone">✓</span>
+
+                <div>
+                  <h3>Conforto e segurança</h3>
+                  <p>Um ambiente pensado para o bem-estar.</p>
+                </div>
+              </div>
+
+              <div class="diferencial">
+                <span class="diferencial-icone">✦</span>
+
+                <div>
+                  <h3>Atendimento especial</h3>
+                  <p>Cada pet recebe atenção individualizada.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- BOTÃO -->
+            <a href="#contato" class="sobre-botao">
+              Conheça a Laço Pet
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+     BLOCO 05 - SPA INTERATIVO LAÇO PET
+========================================== -->
+
+      <section id="agendamento" class="spa">
+        <div class="container">
+          <!-- TÍTULO DA SEÇÃO -->
+          <div class="spa-cabecalho">
+            <span class="secao-tag"> EXPERIÊNCIA LAÇO PET </span>
+
+            <h2>O cuidado <span>transforma.</span></h2>
+
+            <p>
+              Monte um atendimento especial para seu pet e descubra a diferença
+              que o carinho faz.
+            </p>
+          </div>
+
+          <!-- CALCULADORA À ESQUERDA -->
+          <!-- ANTES E DEPOIS À DIREITA -->
+
+          <div class="spa-grid">
+            <!-- CALCULADORA -->
+            <div class="spa-calculadora">
+              <div class="spa-form-topo">
+                <span class="spa-form-tag"> SPA PERSONALIZADO </span>
+
+                <h3>Monte o Spa do Seu Pet</h3>
+
+                <p>Escolha os cuidados e veja uma estimativa instantânea.</p>
+              </div>
+
+              <form id="spa-form" class="spa-form">
+                <!-- PORTE -->
+                <fieldset class="spa-etapa">
+                  <legend>01. Qual é o porte do seu pet?</legend>
+
+                  <div class="spa-opcoes">
+                    <label class="spa-opcao">
+                      <input type="radio" name="porte" value="P" checked />
+                      <span>Pequeno</span>
+                    </label>
+
+                    <label class="spa-opcao">
+                      <input type="radio" name="porte" value="M" />
+                      <span>Médio</span>
+                    </label>
+
+                    <label class="spa-opcao">
+                      <input type="radio" name="porte" value="G" />
+                      <span>Grande</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- PELAGEM -->
+                <fieldset class="spa-etapa">
+                  <legend>02. Como é a pelagem?</legend>
+
+                  <div class="spa-opcoes">
+                    <label class="spa-opcao">
+                      <input type="radio" name="pelo" value="curto" checked />
+                      <span>Curto</span>
+                    </label>
+
+                    <label class="spa-opcao">
+                      <input type="radio" name="pelo" value="medio" />
+                      <span>Médio</span>
+                    </label>
+
+                    <label class="spa-opcao">
+                      <input type="radio" name="pelo" value="longo" />
+                      <span>Longo</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- SERVIÇOS -->
+                <fieldset class="spa-etapa">
+                  <legend>03. Escolha os cuidados</legend>
+
+                  <div class="spa-servicos">
+                    <label>
+                      <input
+                        type="checkbox"
+                        name="servico"
+                        value="banho"
+                        checked
+                      />
+                      <span>Banho relaxante</span>
+                    </label>
+
+                    <label>
+                      <input type="checkbox" name="servico" value="unhas" />
+                      <span>Corte de unhas</span>
+                    </label>
+
+                    <label>
+                      <input type="checkbox" name="servico" value="higienica" />
+                      <span>Tosa higiênica</span>
+                    </label>
+
+                    <label>
+                      <input
+                        type="checkbox"
+                        name="servico"
+                        value="hidratacao"
+                      />
+                      <span>Hidratação</span>
+                    </label>
+                  </div>
+                </fieldset>
+              </form>
+
+              <!-- RESULTADO -->
+              <div class="spa-resultado">
+                <div class="spa-resultado-info">
+                  <span>Seu orçamento estimado</span>
+
+                  <strong id="spa-total"> R$ 45,00 </strong>
+                </div>
+
+                <p class="spa-aviso">
+                  Valores demonstrativos. O orçamento final depende da avaliação
+                  do pet.
+                </p>
+
+                <button type="button" id="spa-whatsapp" class="spa-whatsapp">
+                  Solicitar orçamento ↗
+                </button>
+              </div>
+            </div>
+
+            <!-- COMPARADOR ANTES E DEPOIS -->
+            <div class="spa-transformacao">
+              <div class="transformacao-topo">
+                <span class="spa-form-tag"> VEJA A TRANSFORMAÇÃO </span>
+
+                <h3>Do banho à felicidade!</h3>
+
+                <p>Arraste a seta e descubra o poder de um bom cuidado.</p>
+              </div>
+
+              <div class="comparador" id="comparador">
+                <!-- FOTO DEPOIS (BASE) -->
+                <img
+                  src="assets/imagens/border-depois.png"
+                  alt="Border Collie limpo e escovado"
+                  class="comparador-imagem"
+                  draggable="false"
+                />
+
+                <!-- FOTO ANTES (REVELADA) -->
+                <div class="comparador-antes" id="comparador-antes">
+                  <img
+                    src="assets/imagens/border-antes.png"
+                    alt="Border Collie antes do banho"
+                    class="comparador-imagem"
+                    draggable="false"
+                  />
+                </div>
+
+                <!-- IDENTIFICAÇÕES -->
+                <span class="comparador-label antes"> ANTES </span>
+
+                <span class="comparador-label depois"> DEPOIS </span>
+
+                <!-- LINHA DIVISÓRIA -->
+                <div
+                  class="comparador-linha"
+                  id="comparador-linha"
+                  aria-hidden="true"
+                >
+                  <span class="comparador-seta"> ↔ </span>
+                </div>
+
+                <!-- CONTROLE ACESSÍVEL -->
+                <input
+                  type="range"
+                  id="comparador-range"
+                  class="comparador-range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  step="1"
+                  aria-label="Arraste para comparar o antes e depois"
+                />
+              </div>
+
+              <div class="transformacao-rodape">
+                <span>Arraste para comparar</span>
+
+                <span class="transformacao-icone"> ↔ </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+     BLOCO 06 - PERGUNTAS FREQUENTES
+========================================== -->
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <!-- CABEÇALHO -->
+          <div class="faq-cabecalho">
+            <span class="secao-tag"> CENTRAL DE AJUDA </span>
+
+            <h2>
+              Dúvidas? A gente
+              <span>cuida de tudo.</span>
+            </h2>
+
+            <p>
+              Reunimos algumas informações para ajudar você a escolher os
+              melhores cuidados para seu pet.
+            </p>
+          </div>
+
+          <!-- LISTA DE PERGUNTAS -->
+          <div class="faq-lista">
+            <!-- PERGUNTA 01 -->
+            <div class="faq-item">
+              <button
+                class="faq-pergunta"
+                type="button"
+                aria-expanded="false"
+                aria-controls="faq-resposta-1"
+              >
+                <span> Como funciona o agendamento? </span>
+
+                <span class="faq-icone" aria-hidden="true"> + </span>
+              </button>
+
+              <div class="faq-resposta" id="faq-resposta-1" hidden>
+                <p>
+                  Você escolhe os cuidados desejados e entra em contato para
+                  consultar os horários disponíveis. Nossa equipe confirma os
+                  detalhes antes do atendimento.
+                </p>
+              </div>
+            </div>
+
+            <!-- PERGUNTA 02 -->
+            <div class="faq-item">
+              <button
+                class="faq-pergunta"
+                type="button"
+                aria-expanded="false"
+                aria-controls="faq-resposta-2"
+              >
+                <span> A Laço Pet oferece Táxi Dog? </span>
+
+                <span class="faq-icone" aria-hidden="true"> + </span>
+              </button>
+
+              <div class="faq-resposta" id="faq-resposta-2" hidden>
+                <p>
+                  Você pode solicitar informações sobre transporte. Consulte
+                  nossa equipe para confirmar a região atendida, os valores e a
+                  disponibilidade do serviço.
+                </p>
+              </div>
+            </div>
+
+            <!-- PERGUNTA 03 -->
+            <div class="faq-item">
+              <button
+                class="faq-pergunta"
+                type="button"
+                aria-expanded="false"
+                aria-controls="faq-resposta-3"
+              >
+                <span> Vocês atendem pets idosos ou mais sensíveis? </span>
+
+                <span class="faq-icone" aria-hidden="true"> + </span>
+              </button>
+
+              <div class="faq-resposta" id="faq-resposta-3" hidden>
+                <p>
+                  Cada animal possui necessidades específicas. Informe
+                  previamente a idade, as condições de saúde e o comportamento
+                  do seu pet para que a equipe avalie a melhor forma de
+                  atendimento.
+                </p>
+              </div>
+            </div>
+
+            <!-- PERGUNTA 04 -->
+            <div class="faq-item">
+              <button
+                class="faq-pergunta"
+                type="button"
+                aria-expanded="false"
+                aria-controls="faq-resposta-4"
+              >
+                <span> Quais são as formas de pagamento? </span>
+
+                <span class="faq-icone" aria-hidden="true"> + </span>
+              </button>
+
+              <div class="faq-resposta" id="faq-resposta-4" hidden>
+                <p>
+                  Consulte nossa equipe para confirmar os meios de pagamento
+                  disponíveis no momento do agendamento.
+                </p>
+              </div>
+            </div>
+
+            <!-- PERGUNTA 05 -->
+            <div class="faq-item">
+              <button
+                class="faq-pergunta"
+                type="button"
+                aria-expanded="false"
+                aria-controls="faq-resposta-5"
+              >
+                <span> Posso escolher produtos específicos para o banho? </span>
+
+                <span class="faq-icone" aria-hidden="true"> + </span>
+              </button>
+
+              <div class="faq-resposta" id="faq-resposta-5" hidden>
+                <p>
+                  Informe suas preferências e possíveis sensibilidades do pet.
+                  Nossa equipe poderá verificar os produtos adequados e
+                  disponíveis para o atendimento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CHAMADA FINAL -->
+          <div class="faq-contato">
+            <div>
+              <h3>Ainda ficou alguma dúvida?</h3>
+
+              <p>Fale com a gente e descubra o cuidado ideal para seu pet.</p>
+            </div>
+
+            <a href="#contato" class="faq-botao">
+              Falar com a Laço Pet
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+<!-- ==========================================
+     BLOCO 07 - CONTATO E LOCALIZAÇÃO
+     Coloque dentro do MAIN, após o FAQ
+========================================== -->
+
+<section id="contato" class="contato">
+
+    <div class="container">
+
+        <!-- CABEÇALHO -->
+        <div class="contato-cabecalho">
+
+            <span class="secao-tag">
+                CONTATO & LOCALIZAÇÃO
+            </span>
+
+            <h2>
+                O próximo carinho
+                <span>começa aqui.</span>
+            </h2>
+
+            <p>
+                Estamos prontos para conversar sobre
+                os cuidados que seu melhor amigo merece.
+            </p>
+
+        </div>
+
+        <div class="contato-grid">
+
+            <!-- INFORMAÇÕES -->
+            <div class="contato-informacoes">
+
+                <span class="contato-tag">
+                    FALE COM A GENTE
+                </span>
+
+                <h3>
+                    Seu pet merece um
+                    atendimento especial.
+                </h3>
+
+                <p class="contato-intro">
+                    Entre em contato, tire suas dúvidas
+                    e consulte os horários disponíveis.
+                </p>
+
+                <!-- ENDEREÇO -->
+                <div class="contato-item">
+
+                    <div class="contato-icone">
+                        <span aria-hidden="true">⌖</span>
+                    </div>
+
+                    <div>
+                        <h4>Onde estamos</h4>
+
+                        <p id="contato-endereco">
+                            Endereço a confirmar
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- HORÁRIOS -->
+                <div class="contato-item">
+
+                    <div class="contato-icone">
+                        <span aria-hidden="true">◷</span>
+                    </div>
+
+                    <div>
+                        <h4>Horário de funcionamento</h4>
+
+                        <p id="contato-horario">
+                            Consulte nossos horários
+                            de atendimento.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- TELEFONE -->
+                <div class="contato-item">
+
+                    <div class="contato-icone">
+                        <span aria-hidden="true">✆</span>
+                    </div>
+
+                    <div>
+                        <h4>WhatsApp</h4>
+
+                        <p id="contato-telefone">
+                            Número a configurar
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- INSTAGRAM -->
+                <div class="contato-item">
+
+                    <div class="contato-icone">
+                        <span aria-hidden="true">◎</span>
+                    </div>
+
+                    <div>
+                        <h4>Instagram</h4>
+
+                        <a
+                            id="contato-instagram"
+                            href="#contato"
+                        >
+                            Perfil a configurar
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- BOTÃO PRINCIPAL -->
+                <button
+                    type="button"
+                    id="contato-whatsapp"
+                    class="contato-botao"
+                >
+                    Conversar pelo WhatsApp
+                    <span aria-hidden="true">↗</span>
+                </button>
+
+            </div>
+
+            <!-- MAPA -->
+            <div class="contato-mapa-card">
+
+                <div class="contato-mapa-topo">
+
+                    <span class="contato-tag">
+                        VENHA NOS VISITAR
+                    </span>
+
+                    <h3>
+                        Estamos esperando por você!
+                    </h3>
+
+                    <p>
+                        Encontre nossa localização
+                        e planeje sua visita.
+                    </p>
+
+                </div>
+
+                <div class="contato-mapa">
+
+                    <!-- O mapa será ativado quando
+                         configurarmos o endereço. -->
+
+                    <div
+                        id="mapa-placeholder"
+                        class="mapa-placeholder"
+                    >
+                        <span
+                            class="mapa-placeholder-icone"
+                            aria-hidden="true"
+                        >
+                            ⌖
+                        </span>
+
+                        <strong>
+                            Nossa localização
+                        </strong>
+
+                        <p>
+                            O mapa aparecerá aqui
+                            quando o endereço for
+                            configurado.
+                        </p>
+                    </div>
+
+                    <iframe
+                        id="mapa-iframe"
+                        title="Localização da Laço Pet"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        hidden
+                    ></iframe>
+
+                </div>
+
+                <a
+                    id="contato-rota"
+                    class="contato-rota"
+                    href="#contato"
+                    aria-disabled="true"
+                >
+                    Ver rota no Google Maps
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     FIM DO MAIN
+========================================== -->
+</main>
+
+
+<!-- ==========================================
+     RODAPÉ PREMIUM - LAÇO PET
+========================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+            <!-- MARCA -->
+                <div class="footer-marca">
+
+                    <a href="#inicio" class="footer-logo">
+                        Laço<span>Pet</span>
+                    </a>
+
+                    <p>
+                    Mais que um pet shop.
+                    Um lugar onde carinho,
+                    cuidado e bem-estar
+                    caminham juntos.
+                    </p>
+
+                    <span class="footer-frase">
+                        Amor em cada cuidado.
+                    </span>
+
+                </div>
+
+            <!-- NAVEGAÇÃO -->
+            <div class="footer-coluna">
+
+                <h3>Explore</h3>
+
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#agendamento">Monte seu Spa</a>
+                <a href="#faq">Dúvidas frequentes</a>
+
+            </div>
+
+            <!-- CONTATO -->
+                <div class="footer-coluna">
+
+                    <h3>Contato</h3>
+
+                    <a href="#contato">
+                        Nossa localização
+                    </a>
+
+                    <a href="#contato">
+                        Horários
+                    </a>
+
+                    <a href="#contato">
+                        WhatsApp
+                    </a>
+
+                    <a
+                        id="footer-instagram"
+                        href="#contato"
+                    >
+                        Instagram
+                    </a>
+
+                </div>
+
+            <!-- CHAMADA -->
+                <div class="footer-chamada">
+
+                    <h3>
+                        Seu melhor amigo merece
+                        o melhor cuidado.
+                    </h3>
+
+                    <p>
+                        Agende um momento especial
+                        para seu pet.
+                    </p>
+
+                    <a
+                        href="#agendamento"
+                        class="footer-botao"
+                    >
+                        Monte seu Spa ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-inferior">
+
+                <p>
+                    © <span id="ano-atual"></span>
+                    Laço Pet. Todos os direitos reservados.
+                </p>
+
+                <a href="#inicio">
+                    Voltar ao topo ↑
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+<!-- ==========================================
+     WHATSAPP FLUTUANTE
+========================================== -->
+
+<button
+    type="button"
+    id="whatsapp-flutuante"
+    class="whatsapp-flutuante"
+    aria-label="Conversar pelo WhatsApp"
+    title="Fale com a Laço Pet"
+>
+    <svg
+        viewBox="0 0 32 32"
+        width="27"
+        height="27"
+        fill="currentColor"
+        aria-hidden="true"
+    >
+        <path d="M16 .8A15.1 15.1 0 0 0 3 23.6L.8 31.2l7.8-2.1A15.2 15.2 0 1 0 16 .8Zm0 27.6a12.4 12.4 0 0 1-6.3-1.7l-.5-.3-4.6 1.2 1.2-4.5-.3-.5A12.5 12.5 0 1 1 16 28.4Zm6.9-9.3c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2 0-.5 0-.7l-1.2-2.8c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5s-1.3 1.3-1.3 3.1 1.4 4.8c.2.3 2.6 4.1 6.4 5.7 3.8 1.6 3.8 1.1 4.5 1 .7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5Z"/>
+    </svg>
+</button>
+
+<!-- MANTENHA UM ÚNICO SCRIPT NO FINAL -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
